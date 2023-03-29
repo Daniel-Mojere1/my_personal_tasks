@@ -12,7 +12,7 @@ int main() {
     int number;
     
 // - Request number input using the scanf function
-    printf("Please enter a number from 1 to 7: ");
+    printf("Please enter a number from 1 to 12: ");
     scanf("%d", &number);
     
 // - Include the switch statements and 'number' in the parethesis(variable) as its the determining variable.
