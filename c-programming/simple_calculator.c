@@ -41,7 +41,6 @@ int main ()
         default:
         printf("invalid code");
         
-        printf("%.2lf", result);
     }
     return 0;
 }
