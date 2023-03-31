@@ -7,16 +7,16 @@
 
 int main() {
     int subjectMark[5];
-    int product;
+    int product=0;
     float average;
     printf("Enter 5 input values: ");
     
     for (int i=0; i<5; i++) {
         scanf("%d", &subjectMark[i]);
+        product += subjectMark[i];
     }
-    product = subjectMark[0] + subjectMark[1] + subjectMark[2] + subjectMark[3] + subjectMark[4];
     average = product/5;
-    printf("%.2f", average);
+    printf("The average mark is: %.2f", average);
 
     return 0;
 }
